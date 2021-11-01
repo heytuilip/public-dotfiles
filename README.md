@@ -13,13 +13,14 @@ Screenshots:
 5. [nitrogen](https://archlinux.org/packages/extra/x86_64/nitrogen/)
 6. [papirus-icon-theme](https://archlinux.org/packages/community/any/papirus-icon-theme/)
 7. [panther-launcher](https://aur.archlinux.org/packages/panther-launcher-git/)
-8. [fish](https://archlinux.org/packages/community/x86_64/fish/)
-9. [pkgfile](https://archlinux.org/packages/extra/x86_64/pkgfile/)
-10. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
+8. [xfce4-terminal](https://archlinux.org/packages/extra/x86_64/xfce4-terminal/)
+9. [fish](https://archlinux.org/packages/community/x86_64/fish/)
+10. [pkgfile](https://archlinux.org/packages/extra/x86_64/pkgfile/)
 11. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
-12. [starship](https://archlinux.org/packages/community/x86_64/starship/)
-13. [t2ec](https://aur.archlinux.org/packages/t2ec/)
-14. [psuinfo](https://aur.archlinux.org/packages/psuinfo/)
+12. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
+13. [starship](https://archlinux.org/packages/community/x86_64/starship/)
+14. [t2ec](https://aur.archlinux.org/packages/t2ec/)
+15. [psuinfo](https://aur.archlinux.org/packages/psuinfo/)
 
 
 I followed this video by Ermanno Ferrari when I was customizing OpenBox. So if you are stuck, these videos may help you: 
