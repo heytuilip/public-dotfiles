@@ -11,16 +11,17 @@ Screenshots:
 3. [tint2](https://archlinux.org/packages/community/x86_64/tint2/)
 4. [albert](https://aur.archlinux.org/packages/albert/)
 5. [nitrogen](https://archlinux.org/packages/extra/x86_64/nitrogen/)
-6. [papirus-icon-theme](https://archlinux.org/packages/community/any/papirus-icon-theme/)
-7. [panther-launcher](https://aur.archlinux.org/packages/panther-launcher-git/)
-8. [xfce4-terminal](https://archlinux.org/packages/extra/x86_64/xfce4-terminal/)
-9. [fish](https://archlinux.org/packages/community/x86_64/fish/)
-10. [pkgfile](https://archlinux.org/packages/extra/x86_64/pkgfile/)
-11. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
+6. [obconf](https://archlinux.org/packages/community/x86_64/obconf/)
+7. [papirus-icon-theme](https://archlinux.org/packages/community/any/papirus-icon-theme/)
+8. [panther-launcher](https://aur.archlinux.org/packages/panther-launcher-git/)
+9. [xfce4-terminal](https://archlinux.org/packages/extra/x86_64/xfce4-terminal/)
+10. [fish](https://archlinux.org/packages/community/x86_64/fish/)
+11. [pkgfile](https://archlinux.org/packages/extra/x86_64/pkgfile/)
 12. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
-13. [starship](https://archlinux.org/packages/community/x86_64/starship/)
-14. [t2ec](https://aur.archlinux.org/packages/t2ec/)
-15. [psuinfo](https://aur.archlinux.org/packages/psuinfo/)
+13. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
+14. [starship](https://archlinux.org/packages/community/x86_64/starship/)
+15. [t2ec](https://aur.archlinux.org/packages/t2ec/)
+16. [psuinfo](https://aur.archlinux.org/packages/psuinfo/)
 
 
 I followed this video by Ermanno Ferrari when I was customizing OpenBox. So if you are stuck, these videos may help you: 
@@ -29,7 +30,7 @@ I followed this video by Ermanno Ferrari when I was customizing OpenBox. So if y
 2. ["[9a] | OpenBox: Customization Tools"](https://www.youtube.com/watch?v=Ly0X-oMH2fk)
 
 
-You will have to tweek some stuff in the settings of XFCE4 Terminal as I don't know if the dotfile of that will work or not as XFCE is a Desktop Environment.
+You will have to set [Nightmare.obt](other-necessary-files/Nightmare.obt) as a theme in [obconf](https://archlinux.org/packages/community/x86_64/obconf/) as [WhiteSur-dark.tar.xz](other-necessary-files/WhiteSur-dark.tar.xz) is only a GTK theme which means it will only work in GTK applications.
 
 
 You can also get the wallpapers from [this repository.](https://github.com/heytuilip/wallpapers)
