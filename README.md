@@ -17,5 +17,9 @@ Screenshots:
 9. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
 10. [inetutils](https://archlinux.org/packages/core/x86_64/inetutils/)
 11. [starship](https://archlinux.org/packages/community/x86_64/starship/)
-12. 
-13. 
+12. [t2ec](https://aur.archlinux.org/packages/t2ec/)
+13. [psuinfo](https://aur.archlinux.org/packages/psuinfo/)
+
+I followed this video by Ermanno Ferrari when I was customizing this, so if you are stuck, this video may help you: 
+1. [9] | OpenBox: Getting Started https://www.youtube.com/watch?v=eRKtkmQ4yGI
+2. [9a] | OpenBox: Customization Tools https://www.youtube.com/watch?v=Ly0X-oMH2fk
