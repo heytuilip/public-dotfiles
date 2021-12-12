@@ -1,14 +1,14 @@
 #! /usr/bin/bash
 
-function idkwhat {
-        recstatus=$(fuser /dev/snd/pcmC0D0c)
+function vardef {
+        micstatus=$(fuser /dev/snd/pcmC0D0c)
 }>/dev/null 2>&1
 
-idkwhat
+vardef
 
-if [ "$recstatus" == "" ]; then
+if [ "$micstatus" == "" ]; then
 	echo ""
-elif [ "$recstatus" != "" ]; then
+elif [ "$micstatus" != "" ]; then
 	echo "SPY!"
 else
 	echo "MAYBE"
