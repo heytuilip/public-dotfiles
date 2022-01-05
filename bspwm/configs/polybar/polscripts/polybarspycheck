@@ -1,0 +1,15 @@
+#! /usr/bin/bash
+
+function idkwhat {
+        recstatus=$(fuser /dev/snd/pcmC0D0c)
+}>/dev/null 2>&1
+
+idkwhat
+
+if [ "$recstatus" == "" ]; then
+	echo ""
+elif [ "$recstatus" != "" ]; then
+	echo "SPY!"
+else
+	echo "MAYBE"
+fi
