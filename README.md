@@ -1,5 +1,5 @@
 ## dotfiles
-My dotfiles for setting up Arch Linux with OpenBox & BSPWM.
+My dotfiles for setting up Arch Linux with [OpenBox](https://github.com/heytuilip/public-dotfiles#openbox) & [BSPWM](https://github.com/heytuilip/public-dotfiles#bspwm).
 
 ## BSPWM
 Screenshots:
