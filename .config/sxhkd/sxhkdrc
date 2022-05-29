@@ -2,12 +2,35 @@
 # wm independent hotkeys
 #
 
+# shortcuts for screenshot
+#Print
+#	~/scripts/xfce-ss-script --full-screen
+
+#ctrl + shift + Print
+#	~/scripts/xfce-ss-script --crop-select
+
+# change wallpaper (random)
+#ctrl + alt + w
+#	~/scripts/random-wallpaper 
+
+# screen lock
+super + l
+	betterlockscreen -l
+
 # terminal emulator
 super + Return
-	xfce4-terminal
+	kitty
 
-# program launcher
+# program launcher (rofi)
 super + @space
+	rofi -show drun
+
+# rofi file browser
+super + shift + @space
+	rofi -show filebrowser
+
+# dmenu
+super + alt + @space
 	dmenu_run
 
 # make sxhkd reload its configuration files:
