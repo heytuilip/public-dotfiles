@@ -1,0 +1,14 @@
+#! /usr/bin/bash
+
+if [[ "$1" == "--full-screen" ]]
+then
+	xfce4-screenshooter -f -s ~/Pictures/screenshot_$(date "+%F_%H-%M-%S").png
+
+elif [[ "$1" == "--crop-select" ]]
+then
+	xfce4-screenshooter -r -s ~/Pictures/screenshot_$(date "+%F_%H-%M-%S").png
+
+else
+	echo "This is not a valid command. Look at the source code for available options because we are lazy."
+
+fi

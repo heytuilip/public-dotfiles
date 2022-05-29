@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+pacman -Rns $(pacman -Qtdq)
+paccache -rk 1
+rm -rf ~/.cache/*

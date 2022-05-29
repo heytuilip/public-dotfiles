@@ -1,0 +1,27 @@
+#! /usr/bin/bash
+
+function checkgit() {
+	git status &>/dev/null
+	if [[ $? != 0 ]]
+	then
+		echo "$1" "is not having a git repo."
+	fi
+}
+
+function checkgitcommit() {
+	checkcommit=$(git status --porcelain)
+	if [[ ! -z "$checkcommit" && $? == "0" ]]
+	then
+		echo "$1" "has uncommited changes."
+	fi
+} 2>/dev/null
+
+case "$1" in
+        --check-if-repo)
+            for d in ./*/ ; do (cd "$d" && checkgit $d); done;;
+        --check-commit)
+            for d in ./*/ ; do (cd "$d" && checkgitcommit $d); done ;;
+        *)
+            echo "Usage: $0 { --check-if-repo | --check-commit}"
+            exit 1
+esac

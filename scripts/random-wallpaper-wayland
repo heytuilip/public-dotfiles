@@ -3,25 +3,21 @@
 timesnowrn=$(date +%H)
 
 function set-wallpaper (){
-	# For Nitrogen
-	nitrogen --set-zoom-fill "$1"
+	swaymsg output "*" bg "$1" fill
 	echo "Current wallpaper: " "$1"
-}
-
-function random-wallp() {
-	wallp="$HOME/wallpapers/$1/"$(ls $HOME/wallpapers/$1 | shuf -n 1)
-	echo "Setting a $1 wallpaper..."
 }
 
 if [[ "$1" == "--time-according" || "$1" == "-ta" ]]
 then
 	if [[ "$timesnowrn" < "18" || "$timesnowrn" > "06" ]]
 	then
-		random-wallp "night"
+		wallp="$HOME/wallpapers/night/"$(ls $HOME/wallpapers/night | shuf -n 1)
+		echo "Setting a Dark Mode Wallpaper..."
 		set-wallpaper "$wallp"
 
 	else
-		random-wallp "main"
+		wallp="$HOME/wallpapers/best/"$(ls $HOME/wallpapers/best | shuf -n 1)
+		echo "Setting a Light Mode Wallpaper..."
 		set-wallpaper "$wallp"
 	fi
 

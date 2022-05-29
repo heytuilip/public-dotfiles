@@ -1,0 +1,35 @@
+#! /usr/bin/fish
+
+set timesnowrn (date +%H)
+
+# Set a random dark mode wallpaper if night or light mode in day
+function random-wallpaper ();
+	if test $timesnowrn -gt "18"
+		set wallp (ls ~/wallpapers/night | shuf -n 1)
+		echo "Setting a Dark Mode Wallpaper..."
+
+		nitrogen --set-zoom-fill ~/wallpapers/night/$wallp
+		echo "Current wallpaper: " $wallp
+
+	else if test $timesnowrn -lt "06";
+		set wallp (ls ~/wallpapers/night | shuf -n 1)
+		echo "Setting a Dark Mode Wallpaper..."
+
+		nitrogen --set-zoom-fill ~/wallpapers/night/$wallp
+		echo "Current wallpaper: " $wallp
+
+	else
+		set wallp (ls ~/wallpapers/main | shuf -n 1)
+		echo "Setting a Normal Wallpaper..."
+
+		nitrogen --set-zoom-fill ~/wallpapers/main/$wallp
+		echo "Current wallpaper: " $wallp
+
+	end
+end
+
+random-wallpaper
+
+
+# For XWallpaper
+# xwallpaper --zoom ~/wallpapers/main/(ls ~/Downloads/wallpapers/best | shuf -n 1)
