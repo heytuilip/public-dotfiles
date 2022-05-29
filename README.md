@@ -6,6 +6,7 @@ My dotfiles for setting up Arch Linux with [BSPWM](https://github.com/baskervill
 Screenshots:
 
 ![screenshot1](setup-image.png)
+![screenshot2](setup-image2.png)
 
 You can get the wallpapers from [this repository.](https://github.com/tuilipshrm/wallpapers)
 
