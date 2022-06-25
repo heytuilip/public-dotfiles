@@ -1,9 +1,0 @@
-call plug#begin('~/.vim/plugged')
-
-Plug 'itchyny/lightline.vim'
-Plug 'crusoexia/vim-dracula'
-Plug 'dag/vim-fish'
-
-call plug#end()
-
-colorscheme dracula
