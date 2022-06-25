@@ -18,6 +18,6 @@ yay -S - < arch_packages.txt --needed
 ```
 
 ## Steps
-1. Copy all the dotfiles from the root directory of the project into your home directory.
-2. Copy all the folders and files from the `.config` directory into `~/.config`.
-3. Optionally, copy the `scripts` folders into your home directory.
+1. Copy all the dotfiles from the `home/`into your home directory.
+2. Copy all the folders and files from the `configs/` directory into `~/.config`.
+3. Optionally, copy the `scripts/` folder into your home directory.
