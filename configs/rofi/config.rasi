@@ -11,7 +11,7 @@ configuration {
 * {
   border-radius: 5px;
   bg: #0f0f0f;
-  bg-alt: #00bf89;
+  bg-alt: #1bab74;
 
   fg: #FFFFFF;
   fg-alt: #696969;

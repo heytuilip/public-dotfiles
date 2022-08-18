@@ -1,5 +1,5 @@
 ## dotfiles
-My dotfiles for setting up Arch Linux with [BSPWM](https://github.com/baskerville/bspwm).
+My dotfiles for setting up Arch Linux with [Sway](https://github.com/swaywm/sway).
 
 
 ## My Setup
@@ -12,7 +12,7 @@ You can get the wallpapers from [this repository.](https://github.com/tuilipshrm
 
 
 ## Prerequisites
-For Arch users, you can just download or curl [this file](https://raw.githubusercontent.com/tuilipshrm/public-dotfiles/master/arch_packages.txt) and download packages using an AUR helper(yay, paru, aura, etc.):
+For Arch users, you can download or curl [this file](https://raw.githubusercontent.com/tuilipshrm/public-dotfiles/master/arch_packages.txt) and download packages using an AUR helper(yay, paru, aura, etc.):
 ```
 yay -S - < arch_packages.txt --needed
 ```

@@ -3,10 +3,11 @@ add_newline = true
 [character]
 success_symbol = "[➜](bold green)"
 error_symbol = "[✗](bold red)"
+vicmd_symbol = "[V](bold green)"
 
 [package]
 disabled = true
 
-[sudo]
-style = "bold green"
-disabled = false
+#[sudo]
+#style = "bold green"
+#disabled = false

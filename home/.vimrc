@@ -8,13 +8,12 @@ set autoindent
 set nowrap
 filetype plugin indent on
 
-if filereadable(expand("~/.vimrc.plug"))
-    source ~/.vimrc.plug
-    
-    let g:lightline = {
+let g:lightline = {
     \ 'colorscheme': 'darcula',
     \ }
-
-    hi! Normal ctermbg=NONE guibg=NONE
-    hi! Normal ctermbg=NONE guibg=NONE
+if filereadable(expand("~/.vimrc.plug"))
+    source ~/.vimrc.plug
 endif
+
+hi! Normal ctermbg=NONE guibg=NONE
+hi! Normal ctermbg=NONE guibg=NONE
