@@ -8,24 +8,8 @@
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     //"modules-center": ["sway/window"],
     "modules-right": ["pulseaudio", "network", "cpu", "temperature", "memory", "clock", "tray"],
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
-    },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
     },
     "tray": {
         // "icon-size": 21,
@@ -38,7 +22,6 @@
     },
     "cpu": {
         "format": "󰍛 {usage}%",
-        "tooltip": false
     },
     "memory": {
         "format": "  {}%"
