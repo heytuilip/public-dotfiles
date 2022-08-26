@@ -2,8 +2,9 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: Iosevka Nerd Font Mono, FontAwesome;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 window#waybar {
@@ -74,6 +75,7 @@ window#waybar.solo {
     border-radius: 4px;
     margin: 3px 10px;
     font-weight: 600;
+    background-color: @bg-alt;
 }
 
 #window,
@@ -92,7 +94,7 @@ window#waybar.solo {
 }
 
 #clock {
-    background-color: @yellow;
+    color: @yellow;
 }
 
 @keyframes blink {
@@ -107,27 +109,29 @@ label:focus {
 }
 
 #cpu {
-    background-color: @orange;
+    color: @orange;
 }
 
 #memory {
-    background-color: @purple;
+    color: @purple;
 }
 
 #disk {
-    background-color: #964B00;
+    color: #964B00;
 }
 
 #network {
-    background-color: @green;
+    color: @green;
+    font-family: FontAwesome;
 }
 
 #network.disconnected {
     background-color: @red;
+    color: #000;
 }
 
 #pulseaudio {
-    background-color: @blue;
+    color: @blue;
 }
 
 #pulseaudio.muted {
@@ -142,11 +146,12 @@ label:focus {
 }
 
 #temperature {
-    background-color: @pink;
+    color: @pink;
 }
 
 #temperature.critical {
     background-color: @red;
+    color: #000;
 }
 
 #tray {
@@ -160,4 +165,8 @@ label:focus {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: @red;
+}
+
+#icons {
+    color: #ffffff;
 }

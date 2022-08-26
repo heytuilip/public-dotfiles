@@ -1,4 +1,5 @@
 @define-color bg #15161c;
+@define-color bg-alt #44475a;
 @define-color fg #ffffff;
 @define-color fg-alt #282a36;
 @define-color grey #696969;
@@ -9,4 +10,4 @@
 @define-color orange #ffb86c;
 @define-color yellow #f1fa8c;
 @define-color others #6272a4;
-@define-color purple #bd93f9;
+@define-color purple #bdb0f7;

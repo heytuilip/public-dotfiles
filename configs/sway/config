@@ -170,6 +170,7 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+# Launch Waybar
 exec_always ~/.config/waybar/launch.sh
 
 gaps inner 13
